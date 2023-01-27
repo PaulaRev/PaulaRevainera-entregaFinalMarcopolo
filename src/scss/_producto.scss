@@ -1,0 +1,46 @@
+.tarjetas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+.tarjeta{
+    width: 250px;
+    border: solid 1px;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 20px;
+    margin: 30px;
+    background-color: white;
+}
+.productos{
+    font-family: 'Glegoo', serif;
+    margin-left: 20px;
+    font-size: 50px;
+}
+.tarjeta__img{
+    width: 100%;
+    height: max-content;
+}
+.tarjeta__titulo{
+    margin: 5px;
+}
+.tarjeta__descripcion{
+    margin: 10px;
+}
+.btn{
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: coral;
+    color: black;
+}
+.btn:hover{
+    color: rgb(14, 51, 3);
+}
+
+.header-productos{
+    > img{
+       padding-left: 15%;
+    }
+}
