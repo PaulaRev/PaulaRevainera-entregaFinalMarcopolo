@@ -1,3 +1,10 @@
+.marcopolo-img{
+  display: flex;
+  justify-content: center;
+}
+.marcopolo-img img{
+  width: 640px;
+}
 
 .productos-img{
   width: 60%;
